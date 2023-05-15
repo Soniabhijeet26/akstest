@@ -15,8 +15,6 @@ spec:
             name: flaskapp
             port:
               number: 80
-
-
       - pathType: Prefix
         path: /node
         backend:
